@@ -1,0 +1,49 @@
+Here’s what’s happening step-by-step:
+
+Imports Scanner – for user input.
+
+Declares variables: a, b, c (coefficients), and result (to store 
+𝑏
+2
+−
+4
+𝑎
+𝑐
+b
+2
+−4ac).
+
+Takes user input for a, b, and c.
+
+Calculates discriminant:
+
+result = (b * b) - (4 * a * c);
+
+
+Prints the discriminant value.
+
+Closes the scanner to prevent resource leaks.
+
+Example Run:
+Enter the value of a: 1
+Enter the value of b: 5
+Enter the value of c: 6
+1
+
+
+Here: 
+𝑏
+2
+−
+4
+𝑎
+𝑐
+=
+25
+−
+24
+=
+1
+b
+2
+−4ac=25−24=1
