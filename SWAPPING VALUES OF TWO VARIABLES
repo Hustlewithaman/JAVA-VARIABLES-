@@ -1,0 +1,43 @@
+import java.util.Scanner; // Allows user input
+
+public class swaping {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in); // Create Scanner object for input
+
+        int a, b, c; // Declare 3 integer variables
+
+        System.out.print("Enter the value of a");
+        a = sc.nextInt(); // Take input for a
+
+        System.out.print("Enter the value of b");
+        b = sc.nextInt(); // Take input for b
+
+        // Swap using third variable 'c'
+        c = a; // Store value of a in c
+        a = b; // Assign b's value to a
+        b = c; // Assign c's (old a) value to b
+
+        System.out.println("After swapping value of a is " + a + " and value of b is " + b);
+
+        sc.close(); // Close scanner
+    }
+}
+
+Enter the value of a: 10
+Enter the value of b: 20
+After swapping value of a is 20 and value of b is 10
+
+How the Swap Works
+
+Before swap:
+
+a = 10, b = 20
+
+
+Steps:
+
+c = a → c = 10
+
+a = b → a = 20
+
+b = c → b = 10
